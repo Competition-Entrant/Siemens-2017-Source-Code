@@ -101,14 +101,14 @@ public class Organizer
 	public static void main(String[] args)
 	{
 		ArrayList<Double> values = new ArrayList<Double>();
-		double[] vals = {\\insert data here};
+		double[] vals = {//insert data values here};
 		for (double d: vals)
 		{
 			values.add(d);
 		}
 		Organizer o = new Organizer(values);
-    o.setMin(\\insert min filter value here);
-		o.setMax(\\insert max filter value here);
+		o.setMin(//insert min value here);
+		o.setMax(//insert min value here);
 		ArrayList<Double> clean = o.filter();
 		for (Double d: clean)
 		{
