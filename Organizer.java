@@ -8,7 +8,7 @@ import java.util.Set;
  * identifies all the values in the data set within that range. Then, it generates a frequency plot of the data, 
  * displaying each unique data point and the number of times it occurs.
  * 
- * @author Ashwin Rammohan
+ * @author Competition-Entrant
  * @version August 12, 2017
  *
  */
